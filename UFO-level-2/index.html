@@ -37,7 +37,33 @@
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
                         <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <input class="form-control" list="datalistDateTime" id="datetime" type="text" placeholder="1/11/2011">
+                        <datalist id="datalistDateTime">
+                        </datalist>
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="city">Enter a City</label>
+                        <input class="form-control" list="datalistCities" id="city" type="text" placeholder="London">
+                        <datalist id="datalistCities">
+                        </datalist>
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="shape">Enter a Shape</label>
+                        <input class="form-control" list="datalistShapes" id="shape" type="text" placeholder="Triangle">
+                        <datalist id="datalistShapes">
+                        </datalist>
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="state">Enter a State</label>
+                        <input class="form-control" list="datalistStates" id="state" type="text" placeholder="ar">
+                        <datalist id="datalistStates">
+                        </datalist>
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="country">Enter a Country</label>
+                        <input class="form-control" list="datalistCountries" id="country" type="text" placeholder="us">
+                        <datalist id="datalistCountries">
+                        </datalist>
                       </li>
                     </ul>
                   </div>
